@@ -1,0 +1,435 @@
+body, h1, h2, p, nav {
+    margin: 0;
+    padding: 0;
+}
+
+.nodisplay {
+    display: none;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: #0A0A0A;
+    font-family: "Alata", Arial, Helvetica, sans-serif;
+    color: #D1D1D1;
+}
+
+/* Hero image*/
+header::before {
+    background-image: url("../images/heromoon.jpg");
+    content: " ";
+    display: block;
+    height: 100px;
+    background-size: cover;
+}
+
+/* Header */
+header {
+    background-color: #000000;
+}
+
+h1 {
+    margin-top: 5%;
+    margin-left: 5%;
+    font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 48pt;
+    font-weight: normal;
+    line-height: 1;
+}
+
+header h2 {
+    margin-left: 5%;
+    line-height: 1;
+    padding-bottom: 5%;
+    font-weight: normal;
+}
+
+
+/* Nav */
+nav {
+    background-color: #323232;
+    color: #FFFFFF;
+    margin-top: 0;
+    padding: 5px 0;
+    margin-bottom: 5%;
+}
+
+nav ul {
+    text-align: center;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* Makes the hover to see subsections functionality work */
+
+nav ul li {
+    font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    display: inline-block;
+    position: relative;
+    padding: 5px;
+    margin: 0;
+}
+
+nav ul li:first-of-type, ul li:last-of-type {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    cursor: pointer;
+    color: #D1D1D1;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+nav ul li ul {
+    padding: 0;
+    position: absolute;
+    top: 35px;
+    left:-100000px;
+    width: 150px;
+}
+
+nav ul li ul li {
+    background-color: #000000;
+    display: block;
+    color: #D1D1D1;
+}
+
+nav ul li ul li:hover {
+    background-color: #323232;
+    color: #ffffff
+}
+
+nav ul li:hover ul {
+    display: block;
+    left: 0px;
+}
+
+/* Section styling */
+
+h2 {
+    font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+    font-size: 25pt;
+    font-weight: normal;
+    color: white;
+    line-height: 1;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+section {
+    margin: 5%;
+    background-color: #000000;
+    padding: 5%;
+}
+
+section #imageofmyself {
+    display: none;
+}
+
+hr {     
+    border: 1px solid #323232;    
+}
+
+section p, ul {
+    color: #D1D1D1;
+}
+
+section a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Portfolio styles begin here */
+
+.threecolgrid figure {
+    padding: 2%;
+    margin: 10% 0;
+    background-color: #D1D1D1;
+    cursor: pointer;
+}
+
+.threecolgrid figure:first-of-type {
+    margin-top: 0;
+}
+
+.threecolgrid figure:last-of-type {
+    margin-bottom: 0;
+}
+
+.threecolgrid figure img {
+    border: 2px solid #000000;
+    width: 97%;
+    margin: 0 auto;
+    display: block;
+}
+
+.threecolgrid figure figcaption {
+    color: #000000;
+}
+
+.threecolgrid h3 {
+    font-size: 25pt;
+    line-height: 25pt;
+    padding: 0;
+    margin: 1%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.threecolgrid h4 {
+    font-size: 15pt;
+    line-height: 15pt;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.threecolgrid span {
+    color: #fff;
+    z-index: 3;
+    text-transform: uppercase;
+    background-color: #000000;
+    padding: 2%;
+    position: relative;
+    border: 2px solid black;
+    top: -30px;
+    left: 3px;
+}
+
+/* Description popup styles */
+
+#detailed {
+    background: none;
+}
+
+#detailed section {
+    border: 1px solid white;
+    position: fixed;
+    top: 20px;
+    left: 10px;
+    z-index: 5;
+    height: 550px;
+    overflow-y: scroll;
+}
+
+#detailed section::-webkit-scrollbar {
+    background-color: #000;
+}
+
+#detailed section::-webkit-scrollbar-thumb {
+    background-color: #323232;
+}
+
+#detailed figure {
+    background-color: #000000;
+    padding: 0;
+}
+
+#detailed .threecolgrid {
+    margin-bottom: 2%;
+}
+
+#detailed figure img {
+    border: 2px solid white;
+}
+
+#detailed span {
+    border: 2px solid white;
+}
+
+#detailed button {
+    background-color: #D1D1D1;
+    padding: 3%;
+    color: #000000;
+    font-size: 13pt;
+    text-transform: uppercase;
+    border: none;
+    font-family: "Alata", Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    margin-top: 7%;
+    display: block;
+    cursor: pointer;
+}
+
+#detailed button a {
+    color: #000;
+    padding: 0;
+    margin: 0;
+}
+
+#detailed button:hover {
+    background-color: #fff;
+}
+
+#detailed h3 {
+    text-transform: uppercase;
+    font-size: 15pt;
+    color: #fff;
+    line-height: 15pt;
+    margin-top: 10%;
+}
+
+#detailed ul {
+    list-style-type: circle;
+}
+
+/* Footer */
+
+footer {
+    background-color: #000000;
+    padding: 2%;
+    text-align: center;
+}
+
+
+
+@media screen and (min-width: 600px) {
+
+    nav ul li {
+        font-size: 25pt;
+        padding: 0 55px;
+    }
+
+    .twocolumns {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 2%;
+    }
+
+    h2 {
+        font-size: 32pt;
+    }
+
+    section p, ul {
+        font-size: 15pt;
+    }
+
+    section #imageofmyself {
+        display: block;
+    }
+
+    .notablet {
+        display: none;
+    }
+
+    /* Portfolio grid styles begin here */
+
+    .threecolgrid {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 5%;
+        margin: 5% 2%;
+    }
+
+    .threecolgrid figure {
+        margin: 0;
+        padding: 2%;
+    }
+
+    /* Popup styles begin here */
+
+    .threecolgrid span {
+        top: -30px;
+        left: 3px;
+    }
+
+    #detailed button {
+        font-size: 15pt;
+        padding: 2%;
+    }
+
+    #detailed h3 {
+        font-size: 18pt;
+    }
+
+    #detailed section {
+        top: 10px;
+        height: 850px;
+        border: 2px solid white;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+
+    header::before {
+        height: 200px;
+    }
+
+    h1 {
+        margin-top: 2%;
+        margin-left: 2%;
+        font-size: 80pt;
+    }
+
+    header h2 {
+        margin-left: 2%;
+        padding-bottom: 2%;
+        font-size: 28pt;
+    }
+
+    nav {
+        margin-bottom: 2%;
+        margin-top: 0;
+    }
+
+    section {
+        padding: 2%;
+        margin: 5% 20%;
+    }
+
+    section p {
+        margin-bottom: 2%;
+    }
+
+    section div {
+        margin-top: 1%;
+    }
+
+    .twocolumns {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .notablet {
+        display: block;
+    }
+
+    /* Portfolio grid styling begins here */
+
+    .threecolgrid {
+        grid-template-columns: auto auto auto;
+        margin-top: 2%;
+    }
+
+    .threecolgrid span {
+        top: -31px;
+        left: 2px;
+    }
+    
+    /* Popup styles begin here */
+
+    #detailed button {
+        padding: 1%;
+        font-size: 18pt;
+        margin-top: 5%;
+    }
+
+    #detailed section {
+        top: -60px;
+        height: 800px;
+    }
+}
