@@ -1,8 +1,9 @@
-sources 
+lightning bolts: https://stock.adobe.com/images/lightning-bolt-outline-icon-flash-collection-electric-power-symbol-logo-set-vector-illustration-image-isolated-on-white-background/368242979
 
-moondiv: 
-https://unsplash.com/photos/moon-illustration-Fw0zNFMkpBw
+lightning bolts 2: https://stock.adobe.com/images/black-lightning-bolt-icon-set-vector/409994798
 
-heromoon: 
-https://unsplash.com/photos/moon-wKlqqfNTLsI
+icons: https://stock.adobe.com/images/premium-isolated-flat-user-interface-essential-icon-pack-with-solid-black-color-style-for-web-and-mobile-application/350069773?asset_id=350069773
 
+cloud: https://stock.adobe.com/images/cloud-line-art-icon-symbol-cloud-web-storage/265880322?asset_id=265880322
+
+background-top: https://stock.adobe.com/images/vector-abstract-line-art-wavy-smooth-flowing-dynamic-black-gradient-isolated-on-transparent-background-in-concept-luxury-wave-ocean/594949353?asset_id=594949353
